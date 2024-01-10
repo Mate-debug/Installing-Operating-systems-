@@ -1,0 +1,50 @@
+How to install ubuntu 23.10 when using a windows os 
+!!!!NB !!!! before installing your ubuntu os make sure to back up any important information!!!
+!!!!!Either use an external hard drive or back it up to the cloud!!!!!!
+
+There are 4 ways in which one can install ubuntu os on your pc 
+
+The first way is when one does not want to completely erase their windows operating system but wants to use windows and ubuntu seperately but on one hard drive.
+This first  option is called the **single disk dual boot option**
+The advantages associated with this option is that:
+- You get full performance and functinality of each operating system.
+- The operating systems are isolated from each other. 
+
+The disadvantage associated with this option is that:
+- You will have to reboot your computer everytime you want to switch between operating systems.
+- You will also need to allocate enough disk space for each operating system by partitioning your hard drive accordingly.
+- There is also a high risk of the one operating system affecting the other during installation, configuration and the upgrading process of the operation systems.
+- The GRUB boot menu is virus prone.
+
+STEPS TO INSTALLING LINUX THE **SINGLE DISK DUAL BOOT OPTION***
+STEP 1- download the ISO file using the following link below:
+https://ubuntu.com/#download
+
+STEP 2- Download Etcher/Rufus using the link below to create a bootable USB drive:
+Etcher: https://etcher.balena.io/
+Rufus: https://rufus.ie/en/
+
+STEP 3 "creating a bootable usb using Etcher"- After installing Etcher, open it and connect a USB drive
+!!!NB - make sure the USB drive is formated and has atleast 8 GB storage space !!!
+- Next click "flash from file" on the Etcher window and select the ISO image we downloaded in step 1
+- Next click "select target" and choose the usb drive you inserted into the computer.
+- Finally click on the flash button and wait for a few minutes to complete the burning process.
+
+STEP 4 "Creating a bootable USB using rufus"- After installing rufus, open it and connect a USB drive.
+- The drive will automatically be identified by Rufus, tap on the device and select your USb to boot
+- NB!! make sure the boot selection is set to disk or ISO image. A file explore will be open, then select the ISO image we downloaded in step 1
+- Click on the start button to create the bootable disk.
+
+Step 5 " The installing process" - restart the computer then click on your specific computer, laptops boot menu key either " F12, F11, Esc, and Del."
+- Once in the BIOS select the bootable disk with the ISO image.
+- After selecting the bootable usb you should be redirected to the ubuntu os in the usb 
+- click on install Ubuntu and then chose the language you are comfortable with.
+- Once your arrive on the "installation type window", select the "install ubuntu alongside windows boot manager option"
+- The next window will pop up showing how much space to allowcate to windows and how much to ubuntu. Select the space to your preferences.
+- Click on install and then follow the prompts that follow accordingly. 
+
+STEP 6 " Final and testing"-  Once ubuntu is finished installing a restart window will pop up click on "restart now" and then remove the bootable USB drive and click enter.
+
+STEP 7 "ENTERING THE UBUNTU OPERATING SYSTEM" - Once the Pc starts it will open up the GRUB boot menu.
+- Select Ubuntu and then press enter 
+- The computer will then enter the ubuntu operating system and is ready to use. 
