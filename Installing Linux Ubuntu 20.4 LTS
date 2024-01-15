@@ -1,0 +1,36 @@
+INSTALLING LINUX UBUNTU 20.04 LTS
+Computer specifications:
+-2 GHz dual-core processor or better.
+-4 GB system memory.
+-25 GB of free hard drive space.
+
+STEP 1- download the ISO file using the following link below:
+https://ubuntu.com/#download
+
+STEP 2- Download Etcher/Rufus (for windows users only) using the link below to create a bootable USB drive:
+Etcher: https://etcher.balena.io/
+Rufus: https://rufus.ie/en/
+
+STEP 3 "creating a bootable usb using Etcher"- After installing Etcher, open it and connect a USB drive
+!!!NB - make sure the USB drive is formated and has atleast 8 GB storage space !!!
+3.1 Next click "flash from file" on the Etcher window and select the ISO image we downloaded in step 1
+3.2 Next click "select target" and choose the usb drive you inserted into the computer.
+3.3 Finally click on the flash button and wait for a few minutes to complete the burning process.
+
+STEP 4 "Creating a bootable USB using rufus"- After installing rufus, open it and connect a USB drive.
+4.1 The drive will automatically be identified by Rufus, tap on the device and select your USb to boot
+4.2 NB!! make sure the boot selection is set to disk or ISO image. A file explore will be open, then select the ISO image we downloaded in step 1
+4.3 Click on the start button to create the bootable disk.
+
+Step 5 " The installing process" - restart the computer then click on your specific computer, laptops boot menu key either " F12, F11, Esc, and Del."
+5.1 Once in the BIOS select the bootable disk with the ISO image.
+5.2 After selecting the bootable usb you should be redirected to the ubuntu os in the usb 
+5.3 click on install Ubuntu and then choose the language you are comfortable with.
+5.4 On the next window click "normal installation, download updates while installing ubuntu and install third party software" the click on continue
+5.5 On the "installation type" window click on "erase disk and install ubuntu" then click on "install now"
+5.6 A "write the changes on disk" window will appear click on "continue"
+5.7 Click or search your location on the next window and then click continue. 
+5.8 On the "who are you ?" fill in your relevent personal details then click "continue" you can also select the log in method you want on this window.
+5.9 After clicking continue, Ubuntu will start to install.   
+5.10 After installing click on restart and remove the bootable disk.
+5.11 The computer will then restart and ubuntu will be fully installed.
